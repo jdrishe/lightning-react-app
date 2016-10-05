@@ -115,7 +115,7 @@ export let HomeHeader = React.createClass({
                         <p className="slds-text-heading--label">{this.props.type}</p>
                         <div className="slds-grid">
                             <div className="slds-grid slds-type-focus slds-no-space">
-                                <h1 className="slds-text-heading--medium slds-truncate" title="My Properties">{this.props.title}</h1>
+                                <h1 className="slds-text-heading--medium slds-truncate" title="All Properties">{this.props.title}</h1>
                             </div>
                         </div>
                     </div>
