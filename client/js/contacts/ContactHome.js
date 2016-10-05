@@ -51,7 +51,7 @@ export default React.createClass({
         return (
             <div>
                 <HomeHeader type="contacts"
-                            title="My Contacts"
+                            title="All Contacts"
                             newLabel="New Contact"
                             actions={[{value:"new", label:"New Contact"}]}
                             itemCount={this.state.contacts.length}
