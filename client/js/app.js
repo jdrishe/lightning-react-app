@@ -26,7 +26,7 @@ let App = React.createClass({
                 <header className="menu">
                     <ul className="slds-list--horizontal">
                         <li className="slds-list__item"><IndexLink to="/"><Icon name="account" theme={null}/>Properties</IndexLink></li>
-                        <li className="slds-list__item"><Link to="/contacts"><Icon name="lead" theme={null}/>Contacts</Link></li>
+                        <li className="slds-list__item"><Link to="/contacts"><Icon name="lead" theme={null}/>Buyers</Link></li>
                         <li className="slds-list__item"><Link to="/brokers"><Icon name="people" theme={null}/>Brokers</Link></li>
                     </ul>
                 </header>
