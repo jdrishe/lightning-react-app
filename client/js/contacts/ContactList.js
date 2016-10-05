@@ -21,7 +21,7 @@ export default React.createClass({
             <DataGrid data={this.props.contacts} onSort={this.props.onSort} onAction={this.actionHandler}>
                 <div header="First Name" field="first_name" sortable="true" onLink={this.linkHandler}/>
                 <div header="Last Name" field="last_name" sortable="true" onLink={this.linkHandler}/>
-                <div header="Mobile Phone" field="mobile_phone"/>
+                <div header="Cell Phone" field="mobile_phone"/>
                 <div header="Home Phone" field="home_phone"/>
                 <div header="Email" field="email"/>
             </DataGrid>
